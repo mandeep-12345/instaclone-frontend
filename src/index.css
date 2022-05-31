@@ -1,0 +1,187 @@
+.Top {
+  border: 1px solid blue;
+}
+
+.site-container {
+  text-align: center;
+}
+
+
+html {
+  font-size: 170px;
+}
+
+body {
+  line-height: 1.5;
+}
+
+
+.propt {
+  height: 15%;
+}
+
+.propt>div {
+  display: inline-block;
+
+  font-size: larger;
+}
+
+
+.dots {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  position: relative;
+  bottom: 25px;
+  left: 160px;
+}
+
+.dots img {
+  height: 30px;
+  width: 40px;
+}
+
+
+.image>img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.footer {
+  height: 12%;
+  margin-top: 1px;
+}
+
+.footer>div {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-height: 240px;
+}
+
+.View {
+  border: 1px solid #d5d5d5;
+  height: 450px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  margin-left: 578px;
+}
+
+.post {
+  height: 400px;
+  width: 360px;
+}
+
+.footer {
+  height: 12%;
+  position: relative;
+  bottom: 15px;
+}
+
+.name {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 900px;
+  font-weight: bolder;
+  display: block;
+
+
+}
+
+.like {
+  height: 10px;
+  margin-bottom: 15px
+}
+
+
+
+.like>img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 7px;
+
+}
+
+.share>img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 7px;
+  position: relative;
+  top: 12px;
+
+
+}
+
+.date {
+  float: right;
+  margin-right: 1%;
+  margin-top: -35px;
+  font-size: 18px;
+  font-weight: 100;
+  position: relative;
+  left: 130px;
+}
+
+.likecount {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 25px;
+  font-size: larger;
+  font-weight: 300;
+
+
+
+  color: #3A3B3C;
+}
+
+.description {
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 2px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 55px;
+  left: 1px;
+}
+
+.photo {
+  /* max-height: 240px; */
+  padding-top: 7px;
+  position: relative;
+  bottom: 10px;
+}
+
+.LandingPage {
+  display: flex;
+}
+
+
+
+.BTN {
+  border-radius: 1px solid;
+  border: 1px solid;
+  border-radius: 2px solid;
+  margin-left: 96px;
+  border-radius: 3px;
+}
+
+.location {
+  display: block;
+  padding-left: 20px;
+  font-weight: 200;
+  position: relative;
+  bottom: 6px;
+}
+
+.photo>img {
+  height: 450px;
+  width: 500px;
+}

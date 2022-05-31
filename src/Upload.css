@@ -1,0 +1,88 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  border: 1px solid blue;
+}
+
+.form {
+  margin-top: 3%;
+  width: 35%;
+  height: 60%;
+  border: 1px solid #cccccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin: 5px 30px;
+}
+
+form input {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  height: 25px;
+}
+
+input[type='file'] {
+  width: 100%;
+  padding-top: 10px;
+}
+
+::-webkit-file-upload-button {
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #b9b9b9;
+
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.author input {
+  width: 35%;
+}
+
+.desc input {
+  width: 100%;
+
+}
+
+ /* .post {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px; 
+}  */
+
+.post button {
+  margin-bottom: 10px;
+  width: 100px;
+  color: black;
+  font-size: larger;
+  background-color: blue;
+  margin-top: 15px;
+
+}
+
+form button {
+  height: 27px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
+.desc {
+  padding-top: 10px;
+
+}
+.btn1{
+  cursor: pointer;
+}

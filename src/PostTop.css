@@ -1,0 +1,28 @@
+.PostLevel {
+    display: flex;
+    margin-right: 90px;
+    margin-left: 108px;
+}
+.Start{
+    margin-left: 4%;
+}
+img{
+    display: block;
+    margin: auto;
+    max-height: 240px;
+}
+.Next {margin-left: 80%;margin-top: 3%;}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+.img1{
+    position: relative;
+    bottom: 40px;
+    right: 200px;
+}
+.instaclone{
+    position: relative;
+    top: 30px;
+}
