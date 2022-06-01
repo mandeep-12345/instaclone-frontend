@@ -2,7 +2,8 @@ import React from "react";
 import   "./Postview.css";
 import PostTop from "./PostTop";
 import Posts from './Posts';
-// const url = process.env.REACT_APP_API + '/post';
+// const url = process.env.REACT_APP_API+ '/api/v1/Posts' ;
+//"http://localhost:7000/api/v1/Posts"
 
 class  Postview extends React.Component{
   //Constuctor
@@ -16,7 +17,7 @@ class  Postview extends React.Component{
   // execute The code
   componentDidMount(){
     console.log("component did mount");
-    fetch("http://localhost:7000/api/v1/Posts")
+    fetch("https://be-insta.herokuapp.com/api/v1/Posts")
 
     .then((response) => response.json()) 
 

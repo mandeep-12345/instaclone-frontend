@@ -24,7 +24,7 @@ const Posts = ({ post }) => {
                         </div>
                     </div>
                     <div className="photo">
-                        <img src={`http://localhost:7000/${post.image}`} alt="front" />
+                        <img src={`https://be-insta.herokuapp.com/${post.image}`} alt="front" />
                     </div>
                     <div className="footer">
                         <div className="like">

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Upload.css"
 import axios from 'axios';
+// const url = process.env.REACT_APP_API+ '/api/v1/Posts'
 
 const Uploads = () => {
     const [user, setUser] = useState({
@@ -23,7 +24,7 @@ const Uploads = () => {
         
         try {
             const response = await axios.post(
-                'http://localhost:7000/api/v1/Posts',
+                'https://be-insta.herokuapp.com/api/v1/Posts',
                 formData
             );
             navigate('/Postview');
